@@ -22,7 +22,3 @@ app.get("/login", (req, res) => {
     let login = path.resolve(__dirname, "views/login.html");
     res.sendFile(login)
 })
-
-app.listen(port, ()=>{
-    console.log("start server"); 
-})

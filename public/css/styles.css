@@ -1,0 +1,133 @@
+
+body{font-family: 'Roboto'; background-color: rgb(240, 234, 234);} 
+
+p{font-size: 12px;}
+
+.logo-mercado-liebre {width: 30%; text-align: left; margin: 10px;}
+
+.parrafo {font-size: 24px;}
+
+header {background-color: #EAC926; width: 100%; margin: 0px; border-bottom: solid 20px #EAC926;}
+
+img {width: 80%; text-align: center; margin: 20px;}
+
+.color-header {padding: 20px;}
+
+.precios {font-size: 18px;display: inline-block}
+
+.barra-buscar {display: flex; flex-direction: row; align-items: center;}
+
+.banner {margin:0px; text-align: center; width: 100%;}
+
+.titulares {font-size: 24px; color: rgb(77, 76, 76);}
+ 
+.descuentos {font-size: 16px; color: rgb(37, 172, 4); display: inline-block; margin-left: 3px;}
+
+.descripciones {font-size: 16px; margin: auto;}
+
+nav {width: 100%;}
+
+.navbar1 {font-size: 15px; text-align: left ; 
+    display: flex; flex-direction:row; box-sizing: border-box; 
+    margin: 20px; padding: 5px;
+    list-style: none; justify-content: space-around} 
+
+.navbar2 {font-size: 15px; text-align: left ; 
+    display: flex; flex-direction: rowflex-wrap: wrap; box-sizing: border-box; 
+    margin: 20px; padding: 5px;
+    list-style: none; justify-content: space-around} 
+
+.burger-menu {background-color: rgb(9, 9, 211); 
+              border: none; 
+              color: white; 
+              padding: 7px; 
+              text-align: center; 
+              text-decoration: none; 
+              font-size: 20px;
+              margin: auto; 
+              border-radius: 7px;
+              height: 20px;
+              width: 20px}
+
+main {margin: auto; width: 90%;}
+
+a {color: black; text-decoration: none;}
+
+article {margin-bottom: 22px}
+
+.articulo {background-color: white; 
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    border: solid 1px #ebebeb; border-bottom: 15px; border-top: 15px;
+    width: 300px; 
+    box-sizing: border-box;
+     }
+
+.fa-truck {color: rgb(37, 172, 4); padding: 10px; 
+    border: solid 1px rgb(37, 172, 4);border-radius: 100px; text-align: right; 
+    font-size: 15px;}
+
+footer {margin: auto; padding: 20px; width: 100%; background-color: white;}
+
+form div {margin: 15px; padding: 5px;}
+
+.control {width: 60%; padding: 10px;}
+
+.control-form {text-align: center;}
+
+.intereses-form {text-align: left;}
+
+.perfil-form {display: flex; flex-direction: row; flex-wrap: wrap;}
+
+.boton-form {margin: 50px; text-align: center;}
+.btn-primary {width: 66%; padding: 10px; background-color:rgb(9, 9, 211); color: white ;}
+
+@media (max-width: 361px){
+    .descripciones {display: none} nav {display: none}
+    .parrafo{
+    text-align: center; font-size: 18px; margin: auto
+    } 
+    .logo-mercado-liebre {width: 50%; margin: 10px}
+    .barra-buscar {width: 50%; margin: 10px;}
+    .color-header{
+        display: flex;
+        flex-direction: row; flex-wrap: wrap; justify-content: space-between
+    }
+}
+
+@media (min-width: 361px){
+    .articulo {box-shadow: 0px 0px 10px rgb(100, 100, 100)} .burger-menu {display: none}
+    .color-header{
+        display: flex; 
+        justify-content: space-between;
+    }
+    .parrafo{
+        max-width: 500px; text-align: right; font-size: 14px; margin: 15px
+    }
+    nav {display: flex; justify-content: space-between;}
+    nav li{margin: 0 10px; font-size: 12px;}
+    .contenedor-1 {display:flex; flex-direction: row; flex-wrap: wrap; 
+        justify-content: space-around; box-sizing: border-box;}
+    .contenedor-2 {display: flex; flex-wrap: wrap;
+        justify-content: space-around; box-sizing: border-box;} 
+}
+
+@media (min-width: 768px){
+    .color-header{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+    } .parrafo{
+        max-width: 450px; text-align: right; font-size: 20px;
+    } nav {display: flex; justify-content: space-between;}
+    nav li{margin: 0 10px; font-size: 19px;} 
+    header {margin: auto;} 
+    .logo-mercado-liebre {width: 250px}
+    .footer {display: flex ; flex-direction:row; flex-wrap: wrap; min-width: 100px;}
+    .footer div {max-width: 150px;}
+}
+
+
